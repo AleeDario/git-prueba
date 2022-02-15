@@ -7,7 +7,7 @@ def index():
     return "Bye Code!"
 
 @app.route('/hello')
-def index():
+def greating():
     return "Hello World!"
 
 @app.route('/sum/<int:a>/<int:b>')
