@@ -1,5 +1,5 @@
 from distutils.debug import DEBUG
-from src.app import sum
+from src.app import app
 
 HOST="localhost"
 PORT=4000
